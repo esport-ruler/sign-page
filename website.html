@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            margin:1px;
+            padding:1px;
+            align-items: center;
+        }
+        a{
+            margin-right:120px;
+            color:#000;
+        }
+        .login{
+            background-color: #52e431;
+            height:25px;
+            width:160px;
+            border:0px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 15px;
+            justify-self: flex-end;
+            margin-right: 8px;
+
+        }
+        .food{
+            height:35px;
+            width:35px;
+        }
+        header{
+            display:grid;
+            grid-template-columns:repeat(2,1fr) ;
+            margin-top: 10px;
+            gap:50px;
+            padding:10px;
+
+        }
+        .health{
+            
+            align-self: center;
+            margin-right: 10px;
+            justify-content: center;
+           
+        }
+        .lorem{
+            text-align: left;
+        }
+        .image{
+            width: 500px;
+            height: 100%;
+            align-self: center;
+        }
+        .foodimage{
+            background-color: #dcff14;
+        }
+        .read{
+            padding: 10px 50px;
+        border: 0;
+        background-color: #000;
+        color: #fff;
+        margin-top: 30px;
+        font-size: large;
+        }
+        .section-03 {
+        max-width: 100vw;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+       
+        background-color: #2b1e16;
+      }
+
+      .sub-section {
+        margin: 10px 50px;
+        text-align: center;
+      }
+
+      .sub-section img {
+        width: 150px;
+      }
+
+      .sub-section h1 {
+        color: #fff;
+      }
+
+      .sub-section p {
+        color: #8c6e54;
+      }
+
+      .sub-section-03-heading {
+        margin-top: 60px;
+      }
+      .section-04 {
+        max-width: 1200px;
+        margin: auto;
+        column-gap: 60px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        
+        padding: 30px 0px;
+      }
+
+      .section-04 .sub-section {
+        text-align: center;
+        margin-bottom: 0px;
+        width: 10 0%;
+        overflow: hidden;
+        border-radius: 25px 25px 0px 0px;
+      }
+
+      .section-04 .sub-section img {
+        text-align: center;
+        width: 33vw;
+        height: 280px;
+        margin-top: -50px;
+      }
+
+      .section-04 .sub-section h1 {
+        margin: 0px;
+        padding: 5px 0px;
+        font-size: 30px;
+        color:#000;
+      }
+
+      .section-04 .sub-section p {
+        margin-top: 0px;
+        font-size: 15px;
+      }
+
+      .section-04 .text-section {
+        position: relative;
+        background-color: #fff;
+        margin-top: 0px;
+        top: -50px;
+        text-align: left;
+        border: 1px solid black;
+        border-radius: 0px 0px 25px 25px;
+      }
+      footer {
+        max-width: 100vw;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+       
+        background-color: #2b1e16;
+        padding: 50px;
+      }
+
+      footer img {
+        width: 300px;
+        text-align: center;
+        padding: 20px;
+      }
+
+      footer a {
+        display: block;
+        padding: 15px;
+        color: #8c6e54;
+        text-decoration: none;
+      }
+
+      footer h1 {
+        color: #fff;
+      }
+
+      footer p {
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        font-size: 20px;
+        color: #fff;
+      }
+       
+        
+      
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805.png" alt="Healthy food" class="food">
+        <div>
+       
+            <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a>
+        </div>
+        <button class="login">Login</button>
+    
+    </nav>
+    <header>
+        <div class="health">
+            <h1>Healthy Food</h1>
+            <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, minima officia non earum sit excepturi aut. Magni accusantium, deleniti nam alias reprehenderit nobis harum commodi eligendi perspiciatis sed minus sapiente facilis saepe iure quis voluptas perferendis sequi a. Provident esse libero dicta hic eligendi, accusamus quas eaque tempora expedita voluptatum.</p>
+            <button class="read">Read More</button>
+        </div>
+        <div class="foodimage">
+            <img src="media/istockphoto-870173346-612x612.jpg" alt="logo" class="image">
+        </div>
+        
+    </header>
+    <section class="section-03">
+        <div class="sub-section">
+          <img
+            src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf"
+            alt="Sub Section1"
+          />
+          <h1>No Minimum Order</h1>
+          <p>
+            Order in for yourself or for the group, with no restrictions on order
+            value
+          </p>
+        </div>
+        <div class="sub-section">
+          <img
+            src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy"
+            alt="Sub Section2"
+          />
+          <h1>Live Order Tracking</h1>
+          <p>
+            Know where your order is at all times, from the restaurant to your
+            doorstep
+          </p>
+        </div>
+        <div class="sub-section">
+          <img
+            src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn"
+            alt="Sub Section3"
+          />
+          <h1 class="sub-section-03-heading">Lightning-Fast Delivery</h1>
+          <p>
+            Experience Swiggy's superfast delivery for food delivered fresh & on
+            time
+          </p>
+        </div>
+      </section>
+      <section class="section-04">
+        <div class="sub-section">
+          <img
+            src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+            alt="SubImage 01"
+          />
+          <div class="text-section">
+            <h1>Order Online</h1>
+            <p>Stay Home and order to your Door Step</p>
+          </div>
+        </div>
+        <div class="sub-section">
+          <img
+            src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+            alt="SubImage 01"
+          />
+          <div class="text-section">
+            <h1>On-site Dining</h1>
+            <p>View the city's favourite dining venues.</p>
+          </div>
+        </div>
+        <div class="sub-section">
+          <img
+            src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+            alt="SubImage 01"
+          />
+          <div class="text-section">
+            <h1>Nightlife & Clubs</h1>
+            <p>Explore the city's top nightlife outlets & Book tables.</p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <img
+          src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805.png"
+          alt="Logo"
+        />
+        <div>
+          <h1>Navigation Links</h1>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Login</a>
+        </div>
+  
+        <div>
+          <h1>Learn More</h1>
+          <a href="#">Privacy</a>
+          <a href="#">Security</a>
+          <a href="#">Terms</a>
+          <a href="#">Sitemap</a>
+        </div>
+  
+        <p>&#169; Copyright All rights Reserved</p>
+      </footer>
+
+
+</body>
+</html>
